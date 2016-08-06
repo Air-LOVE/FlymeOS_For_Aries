@@ -1,12 +1,13 @@
 # FlymeOS_For_Aries
-1. 介绍
+
+# 1.介绍
 
 FlymeOS开源项目致力于为开发者提供业界一流的ROM适配工具。
 
 二零一五年六月三十日，FlymeOS开放适配终于来了，我们相信虽晚未迟。
 
 
-2. 分支命名
+# 2.分支命名
 
 开源项目的分支命名与Android版本对应,目前支持Android 5.1的机型适配，分支名为：lollipop-5.1
 
@@ -25,7 +26,7 @@ FlymeOS
       +-- base          官方提供的默认机型
       +-- your_device   待开发者适配的机型
 
-3. 代码下载
+# 3.代码下载
 
 通过repo init命令的-b参数, 选择需要下载的分支。 通过repo sync命令同步远程代码:
 
@@ -39,7 +40,7 @@ $ repo init --repo-url git://github.com/FlymeOS/repo.git \
             -b lollipop-5.1 --no-repo-verify
 $ repo sync --no-clone-bundle -c -j4
 
-4. 小米2/2S机型适配
+# 4.小米2/2S机型适配
 
 Flyme 源码下载完了，就可以开始机型适配了，你们可以选择自己插桩适配，或者git clone我分享的源码来生成ROM，下面介绍git clone我的源码的方法
 
@@ -55,7 +56,7 @@ Flyme 源码下载完了，就可以开始机型适配了，你们可以选择�
 
   $ git pull origin master
 
-5. 下载完我的Flyme工具后，就只需要 cd 到 FlymeOS 开源项目源码的根目录，执行以下命令，输入：
+# 5.下载完我的Flyme工具后，就只需要 cd 到 FlymeOS 开源项目源码的根目录，执行以下命令，输入：
 
 $ source build/envsetup.sh
 
