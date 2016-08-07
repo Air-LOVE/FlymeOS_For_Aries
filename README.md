@@ -1,4 +1,4 @@
-# FlymeOS_For_Aries
+#  FlymeOS_For_Aries
 
 # 1.介绍
 
@@ -14,23 +14,24 @@ FlymeOS开源项目致力于为开发者提供业界一流的ROM适配工具。
 目录结构如下所示:
 
 FlymeOS
- +-- manifest           项目清单
- +-- tutorials          教程文档
- +-- plugins            扩展插件，用于扩展已有功能
- +-- build              编译环境，用于构建和编译机型
- +-- tools              适配工具
- +-- flyme              Flyme相关，内容定期更新
-      +-- release       官方发布的ROM包
-      +-- overlay       资源覆盖
- +-- devices            机型目录
-      +-- base          官方提供的默认机型
-      +-- your_device   待开发者适配的机型
++-- manifest        项目清单
++-- tutorials       教程文档
++-- plugins         扩展插件，用于扩展已有功能
++-- build           编译环境，用于构建和编译机型
++-- tools           适配工具
++-- flyme           Flyme相关，内容定期更新
+  +-- release       官方发布的ROM包
+  +-- overlay       资源覆盖
++-- devices         机型目录
+  +-- base          官方提供的默认机型
+  +-- your_device   待开发者适配的机型
 
 # 3.代码下载
 
 通过repo init命令的-b参数, 选择需要下载的分支。 通过repo sync命令同步远程代码:
 
 $ repo init -u https://github.com/FlymeOS/manifest.git -b lollipop-5.1
+
 $ repo sync -c -j4
 
 如果连接一直失败或下载代码过慢，则使用以下命令:
@@ -38,6 +39,7 @@ $ repo sync -c -j4
 $ repo init --repo-url git://github.com/FlymeOS/repo.git \
             -u https://github.com/FlymeOS/manifest.git \
             -b lollipop-5.1 --no-repo-verify
+
 $ repo sync --no-clone-bundle -c -j4
 
 # 4.小米2/2S机型适配
