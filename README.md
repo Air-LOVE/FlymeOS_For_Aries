@@ -14,17 +14,17 @@ FlymeOS开源项目致力于为开发者提供业界一流的ROM适配工具。
 目录结构如下所示:
 
 FlymeOS
-+-- manifest        项目清单
-+-- tutorials       教程文档
-+-- plugins         扩展插件，用于扩展已有功能
-+-- build           编译环境，用于构建和编译机型
-+-- tools           适配工具
-+-- flyme           Flyme相关，内容定期更新
-  +-- release       官方发布的ROM包
-  +-- overlay       资源覆盖
-+-- devices         机型目录
-  +-- base          官方提供的默认机型
-  +-- your_device   待开发者适配的机型
+    +-- manifest        项目清单
+    +-- tutorials       教程文档
+    +-- plugins         扩展插件，用于扩展已有功能
+    +-- build           编译环境，用于构建和编译机型
+    +-- tools           适配工具
+    +-- flyme           Flyme相关，内容定期更新
+    +-- release         官方发布的ROM包
+    +-- overlay         资源覆盖
+    +-- devices         机型目录
+      +-- base            官方提供的默认机型
+      +-- your_device     待开发者适配的机型
 
 # 3.代码下载
 
@@ -68,4 +68,4 @@ $ flyme cleanall
 
 $ flyme fullota
 
-等待编译完成后，生成的flyme_MI-2_Air-LOVE_xx.xx.xx.xxR.zip,导入手机刷入即可。
+# 等待编译完成后，生成的flyme_MI-2_Air-LOVE_xx.xx.xx.xxR.zip,导入手机刷入即可。
